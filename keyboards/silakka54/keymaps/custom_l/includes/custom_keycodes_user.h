@@ -13,12 +13,12 @@
     #define KC_PASTE C(KC_V)
 
     // Custom Keycodes
-    enum custom_keycodes  {
-        // Mac Globe
+    enum custom_keycodes {
         GIT_R = SAFE_RANGE,
         GIT_CP,
         GIT_C,
         GIT_P,
+        KC_SPCENT,
 
         #ifdef OS_DETECTION_ENABLE
             OS_AWARE_KEYCODES,

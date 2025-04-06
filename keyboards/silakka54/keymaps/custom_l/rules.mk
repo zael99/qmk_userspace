@@ -1,5 +1,6 @@
 # Layers
 # LAYER_LOCK_ENABLE = yes
+DYNAMIC_TAPPING_TERM_ENABLE = yes
 
 # OS Detection
 OS_DETECTION_ENABLE = yes

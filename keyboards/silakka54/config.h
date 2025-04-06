@@ -12,3 +12,23 @@
 #define SPLIT_WATCHDOG_TIMEOUT 3000
 #define SPLIT_USB_DETECT 
 #define SPLIT_USB_TIMEOUT_POLL 10 
+
+// Tap hold settings
+#define PERMISSIVE_HOLD
+
+#define TAPPING_TOGGLE 2
+
+#ifdef AUTO_SHIFT_ENABLE
+    #define AUTO_SHIFT_TIMEOUT 150
+    #define AUTO_SHIFT_OFF
+    #define AUTO_SHIFT_REPEAT
+#endif
+
+#ifdef OS_DETECTION_ENABLE
+    #define OS_DETECTION_DEBOUNCE 1000
+    #define OS_DETECTION_KEYBOARD_RESET
+#endif
+
+#ifdef CAPS_WORD_ENABLE
+    #define CAPS_WORD_INVERT_ON_SHIFT
+#endif
